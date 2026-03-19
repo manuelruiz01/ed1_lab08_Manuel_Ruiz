@@ -85,7 +85,6 @@ public class E02AVLTree<T> {
         }
 
         int compare = comparator.compare(value, root.value);
-
         if (compare == 0) {
             return root;
         }
